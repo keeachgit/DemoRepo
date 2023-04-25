@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>APIDynamicData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a92e29b3-cd74-42e4-b855-c898c66a7581</testSuiteGuid>
+   <testCaseLink>
+      <guid>5c9544be-927d-4fbf-ae52-0919de56457d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>61d42245-5d82-4567-a942-dd7afd2dbe5b</id>
+         <masked>false</masked>
+         <name>NameVar</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC API/Rest API/APIDynamicData</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b2d7bbc6-2d29-4945-95b0-274b0c7c1811</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SampleDataFromExcel</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b2d7bbc6-2d29-4945-95b0-274b0c7c1811</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>61d42245-5d82-4567-a942-dd7afd2dbe5b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APIDynamicData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30f1c36-28bc-499a-b4dc-b059d12a29ce</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6d735377-f6a4-4e70-8452-2b95810aa115</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/SampleDataFromExcel</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>6d735377-f6a4-4e70-8452-2b95810aa115</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserName</value>
+      <variableId>61d42245-5d82-4567-a942-dd7afd2dbe5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>61d42245-5d82-4567-a942-dd7afd2dbe5b</id>
+      <masked>false</masked>
+      <name>NameVar</name>
+   </variable>
+</TestCaseEntity>

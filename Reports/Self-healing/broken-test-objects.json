@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sample/Page_CURA Healthcare Service/a_Make Appointment",
+      "brokenLocator": "//a[@id\u003d\u0027btn-make-appodsfdsfdsintment\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027btn-make-appointment\u0027 and @href \u003d \u0027./profile.php#login\u0027 and (text() \u003d \u0027Make Appointment\u0027 or . \u003d \u0027Make Appointment\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Sample/Page_CURA Healthcare Service/a_Make Appointment_BASIC.png"
+    }
+  ]
+}

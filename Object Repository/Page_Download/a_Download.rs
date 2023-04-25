@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Download</name>
+   <tag></tag>
+   <elementGuidId>4c7592b0-28ec-4168-b5d1-9afbfa753075</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Download')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.Item > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>63c084a8-952e-4516-bbc1-0eeb5a5be33b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>a/7z2201-x64.exe</value>
+      <webElementGuid>f8b9e6a0-c9fc-4421-9e98-673560f3620d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download</value>
+      <webElementGuid>c99eb760-6b31-4b51-a119-53673bccb46f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[2]/td[@class=&quot;Item&quot;]/a[1]</value>
+      <webElementGuid>8ca9e828-e7c0-4b8e-bf01-0de4290bfd7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Download')]</value>
+      <webElementGuid>77144b5e-313f-4191-93d1-5a4976756722</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
+      <webElementGuid>48812031-c1ec-404e-a764-b243092ddc3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System'])[1]/following::a[1]</value>
+      <webElementGuid>04b068b3-2b5b-4df6-886a-d4c7b75fdae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.exe'])[1]/preceding::a[1]</value>
+      <webElementGuid>e14b4c18-5e2b-4088-bd19-920750afad06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[5]/preceding::a[1]</value>
+      <webElementGuid>2d954e2e-469f-4716-8775-e83447f3f18d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'a/7z2201-x64.exe')]</value>
+      <webElementGuid>b5051bec-cee6-4bdc-8f5d-c7d6f778c809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>56a83e39-cb05-4d57-91fa-f46d294e4979</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'a/7z2201-x64.exe' and (text() = 'Download' or . = 'Download')]</value>
+      <webElementGuid>81b66f09-44ea-4ed5-8053-31a3baa3e6da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
