@@ -1,4 +1,4 @@
-name: CI - TS_01
+name: CI - TS-TestTrial
 run-name: Run triggered for TS_01_HomePage_DS by @${{ github.actor }}
 on:
   push:
