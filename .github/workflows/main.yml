@@ -1,0 +1,19 @@
+name: CI - TS_01
+run-name: Run triggered for TS_01_HomePage_DS by @${{ github.actor }}
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2.1
+      with:
+          version: '8.6.0'
+          projectPath: '${{ github.workspace }}'
+          args: '-retry=0 -testSuitePath="Test Suites/TS_01_DS_HomePage" -browserType="Chrome" -executionProfile="DemoStore_Web" -apiKey="08644fc9-51bb-4f70-9ebb-63d724c3bcba" -orgID=1147559 -testOpsProjectId=1110049 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
