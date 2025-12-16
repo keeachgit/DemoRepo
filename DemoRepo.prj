@@ -4,8 +4,12 @@
    <name>DemoRepo</name>
    <tag></tag>
    <UUID>959964b6-f9b9-44cf-8045-9bdf408e1c02</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.4.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/keerthana/git/DemoRepo/DemoRepo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

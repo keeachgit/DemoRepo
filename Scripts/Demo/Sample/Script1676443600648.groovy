@@ -19,54 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://orange.katalon.com/web/index.php/auth/login')
 
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'gdgszf')
 
-WebUI.doubleClick(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), '+1IecTnRHjkCMr0fvOLo0A==')
 
-WebUI.doubleClick(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-not_run: WebUI.takeFullPageScreenshot('Screenshot', [])
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-not_run: WebUI.takeFullPageScreenshotAsCheckpoint('Screenshot1', [])
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-WebUI.setText(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.doubleClick(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Demo account_form-control_1'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Password_password'), 
-    'mdX4sZ+UmEUM4OcUhba6v6bCv+H5XUZy')
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Medicaid_programs'))
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/td_22'))
-
-WebUI.setText(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Appt')
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
-    'Appointment Confirmation')
-
-WebUI.click(findTestObject('Object Repository/Sample/Page_CURA Healthcare Service/a_Go to Homepage'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/div_Invalid credentials'), 'Invalid credentials')
 
